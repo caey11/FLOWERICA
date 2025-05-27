@@ -1,0 +1,80 @@
+:root {
+    --pink: #f9c5d1;
+    --white: #ffffff;
+    --blue: #cce6f4;
+    --text: #444;
+  }
+  
+  /* Umum */
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--white);
+    color: var(--text);
+  }
+  
+  /* Header */
+  header {
+    background-color: var(--blue);
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .logo {
+    width: 120px;
+    margin-bottom: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+    color: var(--pink);
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    color: #555;
+  }
+  
+  /* Tentang Kami */
+  .about {
+    background-color: var(--pink);
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Produk */
+  .products {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .product-list {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+  
+  .product-card {
+    background-color: var(--blue);
+    padding: 1rem;
+    border-radius: 12px;
+    width: 160px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .product-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: var(--pink);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
